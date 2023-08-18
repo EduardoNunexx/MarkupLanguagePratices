@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+}
+.navbar{
+    max-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 10%;
+    padding-top: 10px;
+}
+.logo{
+    width: 80px;
+}
+.nav-ul{
+    margin-left: 5%;
+}
+.nav-ul li{ 
+    list-style: none;
+    display: inline;
+    margin: 5px;
+}
+.nav-ul li a{
+    color:#387aa9;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+.nav-ul li a:hover{
+    transition: 0.5s;
+    color: #031934;
+}
+.nav-right li{ 
+    list-style: none;
+    display: inline;
+}
+.nav-right{
+    color:#387aa9;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+.icon{
+    width:20px;
+}
+.sub-nav{
+    display: flex;
+    align-items: center;
+    width:100vw;
+    height: 6vh;
+}
+.link-sub{
+    width: 30vw;
+    height: 100%;
+    background-color:#1e315a;
+    
+}
+.link-sub a{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.list-sub{
+    padding-right: 40px;
+    width: 68vw;
+    height: 100%;
+    background-color: #456881;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.list-sub a{
+    text-decoration: none;
+    font-family: 'Roboto',sans-serif;
+    color: whitesmoke;
+    font-weight: 500;
+}
+.list-sub li{
+    display: inline;
+    justify-content: space-between;
+    list-style: none;
+    margin: 5px;
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.first-image img{
+    width: 100vw;
+}
+.first-informations{
+    width: 100vw;
+    display: inline-flex;
+    justify-content: space-around;
+}
+.value{
+    display: inline;
+    margin:20px 20px;
+}
+.value h1{
+    font-family: 'Roboto';
+    font-weight: light;
+    font-size: 30px;
+}
+.value h3{
+    color: #162a56;
+    font-size: 60px;
+}
+.motor{
+    display: inline;
+    margin:20px;
+    justify-content: space-between;
+}
+.motor h1{
+    font-family: 'Roboto';
+    font-size: 15px;
+}
+.motor h3{
+    color: #1e315a;
+    font-size: 45px;
+    font-weight: lighter;
+}
+.infos{
+    display: inline;
+    margin:30px;
+}
+.infos h1{
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+.infos button{
+    cursor:pointer;
+    color: whitesmoke;
+    border-radius: 5rem;
+    border: none;
+    width: 150px;
+    height: 40px;
+    background-color: #152F4A;
+    margin-top: 20px;
+    margin-right: 60px;
+    font-size: 20px;
+    box-shadow:1px 10px 30px rgba(58, 57, 57, 0.589);
+}
+.infos button:hover{
+    transition: 0.4s;
+    background-color: #2917ee;
+    scale: 1.2;
+}
+.middle-text {
+    width: 100vw;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Roboto',sans-serif;
+}
+.middle-text p{
+    width: 100vw;
+    font-weight:300;
+    font-size: 40px;
+    font-family: 'Roboto',sans-serif;
+    color:#465369;
+    padding: 30px;
+    margin: 10px 40px;
+}
+.p2{
+    background-color: #F3F4F7;
+}
+table, td,tr{
+    display: flex;
+    border-spacing: 0;
+    width:100vw;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.imgt{
+    border: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.imgt:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.last-txt{
+    margin: 20px;
+    width: 100vw;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Roboto',sans-serif;
+    color:#152F4A;
+}
+.last-txt h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+.last-txt hr{
+    display: block;
+    background: #152F4A;
+    height: 2px;
+    border: 0;
+    margin: 10px 500px;
+}
+.last-txt h2{
+    font-size: 20px;
+}
+.last-txt img{
+    display: flex;
+    justify-content: center;
+}
+.footer-text {
+    position: absolute;
+    width: 100vw;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Roboto',sans-serif;
+}
+.footer-text p{
+    font-weight:300;
+    font-size: 40px;
+    color:#465369;
+    padding: 30px;
+    margin: 10px 40px;
+}
+.footer-img{
+    background-image: url("https://www.ford.com.br/content/ford/br/pt_br/home/performance/mustang/jcr:content/par/billboard/imageComponent/image.imgs.full.high.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1080px;
+}
