@@ -224,8 +224,80 @@ tr a{
     display: flex;
     justify-content: center;
 }
+.propose form{
+    width: 100%;
+}
+.propose{
+    height: 100%;
+    display: flex;
+    font-weight:300;
+    font-family: 'Roboto',sans-serif;
+    color:#465369;
+    width: 100%;
+}
+.propose h1{
+    align-items: start;
+    font-size: 30px;
+}
+.propose form{
+    width: 90vw;
+    display: grid;
+    font-size: 25px;
+    justify-content: space-between;
+}
+#name{
+    padding: 2px;
+    height: 30px;
+    width: 80%;
+    margin-bottom: 10px;
+    border-radius:8px;
+    border-width: 0.5px;
+}
+#disabled{
+    padding: 2px;
+    height: 30px;
+    width: 80%;
+    margin-bottom: 10px;
+    border-radius:8px;
+    border-width: 0.5px;
+}
+.radio{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+#radio{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-top: 2px;
+}
+#entrada{
+    padding: 2px;
+    height: 30px;
+    width: 80%;
+    margin-bottom: 10px;
+    border-radius:8px;
+    border-width: 0.5px;
+}
+#TermosLabel{
+    font-size: 15px;
+}
+.submit{
+    width: 150px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border-width: 0.5px;
+    height: 40px;
+    padding: 2px;
+    margin: 5px;
+    font-size: 20px; 
+}
+.submit:hover{
+    cursor: pointer;
+}
 .footer-text {
-    position: absolute;
     width: 100vw;
     display: grid;
     text-align: center;
@@ -270,4 +342,36 @@ tr a{
     border: none;
     border-radius: 5rem;
     padding: 10px;
+}
+.row{
+    font-family: 'ROBOTO',sans-serif;
+    font-size: 10px;
+    color: whitesmoke;
+    display: flex;
+    align-items:center;
+    justify-content:start;
+    background-color: #152F4A;
+    padding: 30px;
+}
+.row figure{
+    position: end;
+    margin-left: 30px;
+}
+.row figure a{
+    text-decoration: none;
+    padding: 3px;
+}
+.row h2{
+    font-family: 'ROBOTO',sans-serif;
+    font-size: 15px;
+    color: whitesmoke;
+    display: inline;
+    margin-left:55vw;
+    font-weight: 300;
+}
+
+.form-control {
+    display: flex;
+    align-items: center;
+    gap: 4px;
 }
