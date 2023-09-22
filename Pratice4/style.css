@@ -136,8 +136,6 @@ main{
     display: flex;
 }
 .subNav{    
-    top: 0;
-    position: sticky;
     font-weight: bolder;
     font-family: "Blanc W00 Light";
     display: flex;
