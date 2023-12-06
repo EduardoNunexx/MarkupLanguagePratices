@@ -17,10 +17,20 @@
 <body>
     <header class="header shadow-sm">
         <div class="header-content content">
-            <img src="../../assets/logo.png" alt="">
+            <a href="../../index.html">
+                <img src="../../assets/logo.png" alt="">
+            </a>
             <nav>
                 <ul>
-                    <li><a href="/">Nosso serviços</a></li>
+                    <li class="our-services">
+                        <a>Nosso serviços</a>
+                        <div class="our-services-dropdown shadow-sm">
+                            <span>Empréstimo Consignado BPC/LOAS</span>
+                            <span>Empréstimo Consignado INSS</span>
+                            <span>Empréstimo FGTS</span>
+                            <span>Empréstimo Pessoal</span>
+                        </div>
+                    </li>
                     <li><a href="../../pages/onde-estamos/index.html">Onde estamos</a></li>
                     <li><a href="../../pages/sejaNossoParceiro/index.html">Seja nosso parceiro</a></li>
                     <li>
@@ -166,6 +176,8 @@
                 </section>
             </section>
         </section>
+
+        <script type="module" src="../../scripts/index.js"></script>
         <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
         <script>lucide.createIcons()</script>
     </main>
